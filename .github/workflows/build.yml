@@ -3,6 +3,7 @@ run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
   build_executable:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Login to GitHub Container Registry
