@@ -1,0 +1,4 @@
+### my requests
+
+GET http://localhost:8080/hello
+Content-Type: */*
